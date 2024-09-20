@@ -16,7 +16,7 @@ if (msg <= "12") {
   greeting = "Good Evening";
 }
 function GetTime() {
-  return <h1>{greeting}</h1>;
+  return <h1 style={customStyle}>{greeting}</h1>;
 }
 
 export default GetTime;
